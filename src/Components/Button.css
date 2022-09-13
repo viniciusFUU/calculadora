@@ -18,6 +18,7 @@
 
 .button.double{
     grid-column: span 2;
+    border-radius: 0 0 0 10px;
 }
 
 .button.triple{
@@ -30,6 +31,17 @@
 }
 
 .button.operation:active{
+    background-color: #fc6e0fc1;
+    color: white;
+}
+
+.button.borderRight{
+    background-color: #fa8231;
+    color: white;
+    border-radius: 0 0 10px 0;
+}
+
+.button.borderRight:active{
     background-color: #fc6e0fc1;
     color: white;
 }

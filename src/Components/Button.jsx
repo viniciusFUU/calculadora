@@ -6,6 +6,7 @@ export default props => {
     Classes += props.operation ? 'operation' : ''
     Classes += props.double ? 'double' : ''
     Classes += props.triple ? 'triple' : ''
+    Classes += props.borderRight ? 'borderRight' : ''
 
     return (
         <button onClick={e => props.click(props.label)} className={Classes}>
