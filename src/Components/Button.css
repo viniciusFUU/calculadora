@@ -1,6 +1,6 @@
 :root{
     --bg-button: #E6E6E6;
-    --border-button: 1px solid rgb(0, 0, 0);
+    --border-button: 1px solid #b9b9b9;
 }
 
 .button {
